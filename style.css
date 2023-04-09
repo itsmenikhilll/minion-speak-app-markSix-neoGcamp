@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
 
 :root{
     --primary-color: #fcd34d;
@@ -7,11 +7,12 @@
 }
 
 body{
-    font-family: cursive;
+    font-family: 'Concert One', cursive;
     color: var(--secondary-color);
     margin: 0;
     padding: 0;background-image: url(https://images.hdqwalls.com/wallpapers/minions-6.jpg);
     background-size: cover;
+    opacity: 0.9;
 }
 
 header{
@@ -70,6 +71,7 @@ footer{
     bottom: 0;
     width: 100%;
     border-top: 2px solid var(--secondary-color);
+    opacity: 0.9;
 }
 footer h2{
     margin: 0;
