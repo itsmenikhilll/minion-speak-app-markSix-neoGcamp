@@ -20,9 +20,13 @@ header{
 }
 
 .container-main{
-    max-width: 500px;
+    max-width: 400px;
     text-align: center;
     margin: auto; 
+}
+
+.container-main p{
+    margin: 10px 0;
 }
 
 .input{
@@ -32,14 +36,15 @@ header{
     border-radius: 5px;
 }
 .btn-submit{
-    display: block;
     background-color: var(--primary-color);
+    padding: 10px 20px;
+    font-family: inherit;
+    /* border-style: none; */
 }
 .output{
     margin: 10px 0;
     width: 400px;
     height: 100px;
-    border-radius: 5px;
 }
 
 footer{
