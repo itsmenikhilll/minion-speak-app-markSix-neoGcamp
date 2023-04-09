@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 :root{
-    --primary-color: yellow;
-    --secondary-color: black;
+    --primary-color: #fcd34d;
+    --secondary-color: #111827;
+    --font-color: #f8fafc;
 }
 
 body{
     font-family: cursive;
     color: var(--secondary-color);
     margin: 0;
-    padding: 0;
+    padding: 0;background-image: url(https://images.hdqwalls.com/wallpapers/minions-6.jpg);
+    background-size: cover;
 }
 
 header{
@@ -17,6 +19,7 @@ header{
     text-align: center;
     padding: 5px;
     margin-bottom: 10px;
+    border-bottom: 2px solid var(--secondary-color);
 }
 
 .container-main{
@@ -27,6 +30,10 @@ header{
 
 .container-main p{
     margin: 10px 0;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
 }
 
 .input{
@@ -34,17 +41,24 @@ header{
     width: 400px;
     height: 100px;
     border-radius: 5px;
+    border: 1px solid var(--secondary-color);
 }
 .btn-submit{
     background-color: var(--primary-color);
     padding: 10px 20px;
     font-family: inherit;
-    /* border-style: none; */
+}
+.btn-reset{
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+    font-family: inherit;
 }
 .output{
     margin: 10px 0;
     width: 400px;
     height: 100px;
+    border-radius: 5px;
+    border: 1px solid var(--secondary-color);
 }
 
 footer{
@@ -55,6 +69,7 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
+    border-top: 2px solid var(--secondary-color);
 }
 footer h2{
     margin: 0;
